@@ -92,6 +92,7 @@ class Base:
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 print("Game Over,You Are a Hanged Man !!!")
+                print("***************************************************")
                 print("Search Word is : ",search_word)
                 break
             for i in range(len(search_word)):
@@ -103,6 +104,7 @@ class Base:
             if word==search_word:
                 print("The Search Word is : ",search_word)  
                 print("BRAVO,Mission acomplished!!!")
+                print("***************************************************")
                 break
             else :
                 print("You did not guess,try again... ")

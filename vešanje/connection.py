@@ -12,4 +12,4 @@ class Connection:
       if(Connection.__connection != None):
          raise Exception("This is Singlton")
       else:
-         Connection.__connection = mysql.connector.connect(user='root', password='stevica011',host='127.0.0.1',database='words')
+         Connection.__connection = mysql.connector.connect(user='root', password='',host='127.0.0.1',database='words')

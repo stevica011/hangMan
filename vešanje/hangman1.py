@@ -77,7 +77,7 @@ class Base:
                 print("Letter Exists")
                 print("Move on..")
                 passLetter.append(letter)
-                print(passLetter)
+                #print(passLetter)
             else :
                 print("Letter does not exists!")
                 mistake+=1

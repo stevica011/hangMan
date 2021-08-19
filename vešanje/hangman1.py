@@ -71,8 +71,6 @@ class Base:
         mistake=0 
         while mistake<6 :
             letter = input("Enter letter : ") 
-            if letter==int:
-                print("False man!")
             if letter in search_word :
                 print("Letter Exists")
                 print("Move on..")

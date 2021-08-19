@@ -7,9 +7,9 @@ class Base:
         cursor=con.cursor()
         cursor.execute("SELECT word FROM wordsList")
         words = cursor.fetchall()
-        print(words)
-        for word in words:
-            print(word)
+        #print(words)
+        #for word in words:
+            #print(word)
         print("***************************************************")
         search_word=''
         index_word =''
